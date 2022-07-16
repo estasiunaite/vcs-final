@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../Elements/Card/Card";
+import Card from "../../Shared/Card/Card";
 import "./cards.css";
 
 const Cards = () => {

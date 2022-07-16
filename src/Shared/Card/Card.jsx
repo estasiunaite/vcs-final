@@ -4,8 +4,8 @@ import "./card.css";
 const Card = ({ imgLink, title, paragraph }) => (
   <div className="card">
     <img className="cardImg" src={imgLink} />
-    <div className="title">{title}</div>
-    <div className="paragraph">{paragraph}</div>
+    <h2 className="title">{title}</h2>
+    <p className="paragraph">{paragraph}</p>
   </div>
 );
 

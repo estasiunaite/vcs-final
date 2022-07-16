@@ -1,13 +1,11 @@
 import React from "react";
-import Dropdown from "react-bootstrap/Dropdown";
 
 import CTA from "./CTA";
 import "./calendar.css";
 
 const Calendar = () => {
   return (
-    <div className=".container__calendar">
-      <div>Calendar</div>
+    <div className="container container__calendar">
       <CTA />
     </div>
   );
