@@ -1,0 +1,30 @@
+.card {
+    width: 300px;
+    height: 700px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid #444444;
+    background-color: blanchedalmond;
+}
+
+.cardImg {
+    max-width: 280px;
+    margin: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: blue;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: grey;
+    padding: 30px;
+}

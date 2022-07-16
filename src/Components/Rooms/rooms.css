@@ -1,0 +1,16 @@
+.main {
+    background-color: #f4fabe;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>p {
+    font-size: 20px;
+}
+
+.main>h2 {
+    font-size: 50px;
+}

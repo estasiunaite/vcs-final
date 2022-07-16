@@ -1,0 +1,33 @@
+.hero {
+    background-image: url="hero_img.jpg";
+    background-position: center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.image {
+    display: none;
+}
+
+/* h1 {
+
+    color: #fff;
+    font-size: 74px;
+    line-height: 1.6em;
+    padding-top: 10px;
+    /*line-height: 1.6em;
+    padding-top: 30px: 
+}
+
+p {
+
+    line-height: 1.6em;
+    position: relative;
+
+} */
