@@ -1,13 +1,12 @@
 import React from "react";
 import "./rooms.css";
 
-import FooterSocials from "../../Shared/FooterSocials/FooterSocials";
-
 const Rooms = () => {
   return (
     <div className="rooms">
-      <h2>rooms</h2>
-      <FooterSocials />
+      <div className="container container__rooms">
+        <h1>rooms</h1>
+      </div>
     </div>
   );
 };
