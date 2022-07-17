@@ -177,6 +177,7 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
+        padding: 12px;
         /* grid-template-columns: 300px auto auto;
         grid-auto-rows: 100px auto 100px;
         grid-template-areas:
@@ -196,6 +197,7 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+        padding: 12px;
 
 
         /* grid-template-areas:
