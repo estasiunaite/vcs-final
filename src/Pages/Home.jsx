@@ -11,6 +11,7 @@ import Gallery from "../Components/Gallery/Gallery";
 import Map from "../Components/Map/Map";
 import Footer from "../Components/Footer/Footer";
 import Calendar from "../Components/Calendar/Calendar";
+import Yoga from "../Components/Yoga/Yoga";
 
 const Home = () => (
   <>
@@ -21,6 +22,7 @@ const Home = () => (
     <Rooms />
     <Food />
     <Activities />
+    <Yoga />
     <Testimonial />
     <Gallery />
     <Map />

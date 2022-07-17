@@ -1,0 +1,14 @@
+footer {
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    height: 200px;
+    /* gap: 2rem;
+    padding: 0 2rem;
+    letter-spacing: 0.5em;
+    position: relative; */
+}

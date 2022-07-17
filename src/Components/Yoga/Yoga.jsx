@@ -3,7 +3,7 @@ import "./yoga.css";
 
 const Yoga = () => {
   return (
-    <div className="yoga">
+    <div id="Yoga" className="yoga">
       <h2>yoga</h2>
     </div>
   );

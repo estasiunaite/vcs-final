@@ -1,24 +1,27 @@
 import React from "react";
 import Card from "../../Shared/Card/Card";
 import "./cards.css";
+import IconYoga from "../../Assets/icons/yoga.svg";
+import IconVegan from "../../Assets/icons/vegan.svg";
+import IconForest from "../../Assets/icons/forest.svg";
 
 const Cards = () => {
   return (
     <div className="container cards__container">
       <Card
-        imgLink="https://i.picsum.photos/id/1014/6016/4000.jpg?hmac=yMXsznFliL_Y2E2M-qZEsOZE1micNu8TwgNlHj7kzs8"
-        title="Lorem, ipsum dolor"
-        paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolorem fugiat libero repellendus sequi veritatis"
+        cardImgLink={IconYoga}
+        title="certified teachers"
+        paragraph="You can be sure that your teacher has received thousands of hours of training."
       />
       <Card
-        imgLink="https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk"
-        title="Sit amet consectetur"
-        paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolorem fugiat libero repellendus sequi veritatis"
+        cardImgLink={IconVegan}
+        title="healthy food"
+        paragraph="We believe that nutritious, wholesome food is essential for a happy life."
       />
       <Card
-        imgLink="https://i.picsum.photos/id/1012/3973/2639.jpg?hmac=s2eybz51lnKy2ZHkE2wsgc6S81fVD1W2NKYOSh8bzDc"
-        title="Adipisicing elit"
-        paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolorem fugiat libero repellendus sequi veritatis"
+        cardImgLink={IconForest}
+        title="coMFortable rooms"
+        paragraph="Excellent in-room amenities and facilities will create the most relaxing feel."
       />
     </div>
   );

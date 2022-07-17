@@ -10,13 +10,13 @@
 
 :root {
     --color-bg: #fcf8f2;
-    --color-primary: #1b1924;
+    --color-primary: #302e38;
     --color-light: #fcf8f2;
     --color-white: #fff;
     --color-dark-blue2: #201c3a;
     --color-dark-blue3: #555167;
     --color-blue1: #003391;
-    --color-blue2: #5d76a6;
+    --color-blue2: #828ba8;
     --color-grey1: #9c9b9b;
     --color-grey2: #d2d2d2;
     --color-grey3: #f1eee9;
@@ -47,13 +47,13 @@ body {
 
 .container {
     width: var(--container-width-lg);
-    margin: 0 auto;
+    margin: auto;
 }
 
 h1,
 h2,
 h3,
-    {
+h4 {
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -68,6 +68,10 @@ h2 {
 
 h3 {
     font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
 }
 
 
@@ -94,12 +98,13 @@ section>h2 {
 }
 
 a {
-    color: var(--color-light);
+    color: var(--color-grey2);
     transition: var(--transition);
+    cursor: pointer;
 }
 
 a:hover {
-    color: var(--color-blue3);
+    color: var(--color-light);
 }
 
 .btn {
@@ -112,6 +117,7 @@ a:hover {
     text-transform: uppercase;
     cursor: pointer;
     transition: var(--transition);
+    box-shadow: 0 2px 4px #00000080;
 }
 
 .btn:hover,
@@ -145,12 +151,30 @@ img {
     object-fit: cover;
 }
 
+/* .container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-auto-rows: 100px auto 100px;
+    grid-gap: 10px;
+    grid-template-areas:
+        'header header header'
+        'content content content'
+        'card card card'
+        'footer footer footer'
+} */
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
+        /* grid-template-columns: 300px auto auto;
+        grid-auto-rows: 100px auto 100px;
+        grid-template-areas:
+            'header header header'
+            'hero hero hero'
+            'card card card'
+            'footer footer footer' */
     }
 
     section {
@@ -163,6 +187,15 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+
+
+        /* grid-template-areas:
+            'header'
+            'hero'
+            'card'
+            'card'
+            'card'
+            'footer' */
     }
 
     section,
@@ -170,6 +203,23 @@ img {
         margin-bottom: 2rem;
     }
 }
+
+/* .header {
+    grid-area: header;
+}
+
+
+.hero {
+    grid-area: hero;
+}
+
+.cards {
+    grid-area: card;
+}
+
+.footer {
+    grid-area: footer;
+} */
 
 
 

@@ -8,14 +8,11 @@
     align-items: center;
 }
 
-.card {
-    border: 1px solid #444444;
-    background-color: blanchedalmond;
-}
 
-.cardImg {
+/* .cardImg {
     max-width: 280px;
     margin: 10px;
+    fill: blue;
 }
 
 .title {
@@ -27,4 +24,4 @@
     font-size: 16px;
     color: grey;
     padding: 30px;
-}
+} */

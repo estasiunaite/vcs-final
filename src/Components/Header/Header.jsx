@@ -11,14 +11,25 @@ const Header = () => {
         <div className="logo">
           <img src={Logo} alt="logo" />
         </div>
-        <div className="navigation">
-          <Link to="/"> Home </Link>
-          <Link to="/About"> About </Link>
-          <Link to="/Food"> Food </Link>
-          <Link to="/ContactUs"> Contact Us </Link>
-          <Link to="/Login"> Login </Link>
+        <ul className="nav-menu">
+          <li>
+            <a to="/"> Home</a>
+          </li>
+          <li>
+            <a to="/About"> About</a>
+          </li>
+          <li>
+            <a to="/Food"> Food</a>
+          </li>
+          <li>
+            <a to="/ContactUs"> Contact Us</a>
+          </li>
+          <li>
+            <a to="/Login"> Login</a>
+          </li>
+
           {/* <div className="menuIcon"></div> */}
-        </div>
+        </ul>
       </div>
     </header>
   );
