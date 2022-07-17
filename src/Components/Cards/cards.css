@@ -3,9 +3,17 @@
 }
 
 .container.cards__container {
-    height: 550px;
+    min-height: 550px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .container.cards__container {
+        display: flex;
+        flex-direction: column;
+
+    }
 }

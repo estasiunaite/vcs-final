@@ -1,7 +1,6 @@
 .hero {
     background-image: url="hero_img.jpg";
     background-position: center;
-    min-height: 300px;
     text-align: center;
     justify-content: center;
     align-items: center;

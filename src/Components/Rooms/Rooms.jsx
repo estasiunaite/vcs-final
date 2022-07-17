@@ -5,7 +5,12 @@ const Rooms = () => {
   return (
     <div className="rooms">
       <div className="container container__rooms">
-        <h1>rooms</h1>
+        <div>
+          <h1>rooms</h1>
+          <div class="line-2">
+            <hr></hr>
+          </div>
+        </div>
       </div>
     </div>
   );

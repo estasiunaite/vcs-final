@@ -167,8 +167,8 @@ img {
     grid-gap: 10px;
     grid-template-areas:
         'header header header'
-        'content content content'
         'card card card'
+        'content content content'
         'footer footer footer'
 } */
 
@@ -182,8 +182,8 @@ img {
         grid-auto-rows: 100px auto 100px;
         grid-template-areas:
             'header header header'
-            'hero hero hero'
             'card card card'
+            'content content content'
             'footer footer footer' */
     }
 
@@ -215,7 +215,7 @@ img {
     }
 }
 
-/* .header {
+/* .navbar {
     grid-area: header;
 }
 
