@@ -1,8 +1,11 @@
-.cards__container {
-    height: 700px;
+.cardsSection {
+    background-color: var(--color-grey3);
+}
+
+.container.cards__container {
+    height: 550px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }

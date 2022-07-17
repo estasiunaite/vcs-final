@@ -1,0 +1,4 @@
+.container.container__calendar {
+    position: absolute;
+    display: none;
+}

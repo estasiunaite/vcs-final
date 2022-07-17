@@ -7,22 +7,24 @@ import IconForest from "../../Assets/icons/forest.svg";
 
 const Cards = () => {
   return (
-    <div className="container cards__container">
-      <Card
-        cardImgLink={IconYoga}
-        title="certified teachers"
-        paragraph="You can be sure that your teacher has received thousands of hours of training."
-      />
-      <Card
-        cardImgLink={IconVegan}
-        title="healthy food"
-        paragraph="We believe that nutritious, wholesome food is essential for a happy life."
-      />
-      <Card
-        cardImgLink={IconForest}
-        title="coMFortable rooms"
-        paragraph="Excellent in-room amenities and facilities will create the most relaxing feel."
-      />
+    <div className="cardsSection">
+      <div className="container cards__container">
+        <Card
+          cardImgLink={IconYoga}
+          title="certified teachers"
+          paragraph="You can be sure that your teacher has received thousands of hours of training."
+        />
+        <Card
+          cardImgLink={IconVegan}
+          title="healthy food"
+          paragraph="We believe that nutritious, wholesome food is essential for a happy life."
+        />
+        <Card
+          cardImgLink={IconForest}
+          title="coMFortable rooms"
+          paragraph="Excellent in-room amenities and facilities will create the most relaxing feel."
+        />
+      </div>
     </div>
   );
 };
