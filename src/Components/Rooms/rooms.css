@@ -22,3 +22,10 @@
     border: 0;
     background: var(--color-blue1);
 }
+
+.rectangle1 {
+
+    width: 300;
+    height: 100;
+
+}

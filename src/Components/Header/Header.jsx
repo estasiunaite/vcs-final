@@ -1,17 +1,22 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+// import { Link } from "react-router-dom";
 import "./header.css";
-// import Img1 from "./logo.png";
 import Logo from "../../Assets/icons/logo.svg";
+import { GiHamburgerMenu } from "react-icons/gi";
+
+import { AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
   return (
-    <header>
+    <header className="navbar">
       <div className="container header__container">
         <div className="logo">
           <img src={Logo} alt="logo" />
         </div>
-        <ul className="nav-menu">
+        {/* <ul className="nav-menu"> */}
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
             <a to="/"> Home</a>
           </li>
@@ -26,10 +31,16 @@ const Header = () => {
           </li>
           <li>
             <a to="/Login"> Login</a>
-          </li>
-
-          {/* <div className="menuIcon"></div> */}
+          </li>{" "}
         </ul>
+        {/* <div className="hamburger"> */}
+        <div className="hamburger" onClick={handleClick}>
+          {click ? (
+            <AiOutlineClose className="icon" />
+          ) : (
+            <GiHamburgerMenu className="icon" />
+          )}
+        </div>
       </div>
     </header>
   );
