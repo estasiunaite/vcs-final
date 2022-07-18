@@ -2,13 +2,13 @@
   width: 150px;
   display: none;
 }
-.themeName h1 {
+.themeName {
   color: var(--color-blue1);
   transform: rotate(-90deg);
   text-align: start;
 }
 
-.line-2 hr {
+.line-2 {
   margin-bottom: 95px;
   margin-top: 150px;
   width: 297px;
@@ -18,10 +18,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .line-2 hr {
+  .line-2 {
     transform: rotate(-90deg);
   }
-  .themeName h1 {
+  .themeName {
     transform: rotate(90deg);
   }
 }

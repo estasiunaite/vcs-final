@@ -1,0 +1,36 @@
+.foodSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutFood {
+  width: 350px;
+  min-height: 470px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.aboutFood p {
+  padding: 30px;
+  text-align: left;
+}
+.foodPic {
+  height: 486px;
+  width: 729px;
+}
+
+/* .aboutFood .learnMoreBtn {
+  padding: 30px;
+  align-items: left;
+} */
+@media screen and (max-width: 1024px) {
+  .foodSection {
+    flex-direction: column;
+  }
+  .foodPic {
+    width: 100%;
+  }
+}

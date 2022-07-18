@@ -23,8 +23,8 @@ const Home = () => (
     <Food />
     <Activities />
     <Yoga />
-    <Testimonial />
     <Gallery />
+    <Testimonial />
     <Map />
     <Footer />
   </>

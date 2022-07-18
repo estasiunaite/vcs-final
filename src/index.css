@@ -145,7 +145,7 @@ a:hover {
 }
 
 .btn-transparent {
-  background-color: var(--color-light);
+  background-color: none;
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
 }

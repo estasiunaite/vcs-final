@@ -1,15 +1,11 @@
 import React from "react";
 import "./ThemeDividerVertical.css";
 
-const ThemeDividerVertical = () => {
+const ThemeDividerVertical = ({ themeName }) => {
   return (
     <div ClassName="themeDividerVert">
-      <div className="themeName">
-        <h1>rooms</h1>
-      </div>
-      <div class="line-2">
-        <hr></hr>
-      </div>
+      <h1 className="themeName">{themeName}</h1>
+      <hr class="line-2"></hr>
     </div>
   );
 };

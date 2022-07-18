@@ -14,7 +14,7 @@ const Rooms = () => {
     <div className="roomsSection">
       <div className="container container__rooms">
         <div className="themeDividerVerticalRooms">
-          <ThemeDividerVertical />
+          <ThemeDividerVertical themeName="Rooms" />
         </div>
         <div className="roomPrices">
           <PriceCard
@@ -24,7 +24,7 @@ const Rooms = () => {
           />
         </div>
 
-        <div roomTypes>
+        <div className="roomTypes">
           <h3>Double room</h3>
           <h3>shared room</h3>
         </div>
