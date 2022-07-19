@@ -1,0 +1,17 @@
+.dividerHor * {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.themeNameHor {
+  color: var(--color-blue1);
+}
+
+.line-3 {
+  height: 100px;
+  width: 2px;
+  background: var(--color-blue1);
+  position: relative;
+}

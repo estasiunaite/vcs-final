@@ -1,4 +1,4 @@
-.foodSection {
+.container .food__container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -17,10 +17,38 @@
   padding: 30px;
   text-align: left;
 }
-.foodPic {
+.foodPic img {
   height: 486px;
   width: 729px;
 }
+
+.gradientRec {
+  height: 530px;
+  width: 810px;
+  margin-top: 50px;
+  margin: 50px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 20px;
+  opacity: 65%;
+  border-image-source: linear-gradient(
+    to left,
+    var(--color-blue1),
+    var(--color-light)
+  );
+
+  /* border-color: white;
+  border-image-source: linear-gradient(to right, white, #003391);
+  border-image-slice: 1;
+  border-width: 5px;
+  z-index: -1;
+
+  border: 20px solid;
+  position: relative; */
+}
+
+/* border: 20px solid;
+  border-image: linear-gradient(to right, white, var(--color-blue1)); */
 
 /* .aboutFood .learnMoreBtn {
   padding: 30px;

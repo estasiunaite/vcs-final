@@ -1,0 +1,38 @@
+.yogaSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutyoga {
+  width: 350px;
+  min-height: 470px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* color: var(--color-light); */
+  color: red;
+}
+.aboutyoga p {
+  padding: 30px;
+  text-align: left;
+  /* color: var(--color-light); */
+  color: red;
+}
+.yogaPic img {
+  height: 655px;
+  width: 664px;
+}
+.yogaRec1 {
+  height: 433px;
+  width: 595px;
+  background-color: var(--color-blue2);
+}
+.yogaRec2 {
+  height: 433px;
+  width: 595px;
+  background-color: var(--color-grey2);
+  opacity: 45%;
+}

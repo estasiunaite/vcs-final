@@ -1,0 +1,29 @@
+.activitiesSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutActivities {
+  width: 350px;
+  min-height: 470px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.aboutActivities p {
+  padding: 30px;
+  text-align: left;
+}
+.lobbyPic img {
+  height: 661px;
+  width: 570px;
+}
+
+.activitiesRec {
+  height: 477px;
+  width: 100%;
+  background-color: var(--color-grey2);
+}

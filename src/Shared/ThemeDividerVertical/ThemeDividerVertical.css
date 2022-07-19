@@ -1,6 +1,7 @@
-.themeDividerVert {
+.dividerVert * {
   width: 150px;
   display: none;
+  height: 150px;
 }
 .themeName {
   color: var(--color-blue1);
@@ -9,12 +10,16 @@
 }
 
 .line-2 {
-  margin-bottom: 95px;
+  height: 2px;
+  width: 297px;
+  background: var(--color-blue1);
+  position: relative;
+  /* margin-bottom: 95px;
   margin-top: 150px;
   width: 297px;
   height: 2px;
   border: 0;
-  background: var(--color-blue1);
+  background: var(--color-blue1); */
 }
 
 @media screen and (max-width: 1024px) {

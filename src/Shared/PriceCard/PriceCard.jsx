@@ -4,7 +4,7 @@ import BookNow from "./BookNow";
 
 const PriceCard = ({ priceTag, roomType, roomDescription }) => (
   <div className="priceCard">
-    <a className="priceTag">{priceTag}</a>
+    <p className="priceTag">{priceTag}</p>
     <h2 className="roomType">{roomType}</h2>
     <p className="roomDescription">{roomDescription}</p>
 
