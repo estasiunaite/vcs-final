@@ -11,7 +11,7 @@ const Header = () => {
   const handleClick = () => setClicked(!clicked);
 
   return (
-    <header className="navbar">
+    <header id="toHeader" className="navbar">
       <div className="container header__container">
         <Link to="/" className="logo">
           <img src={Logo} alt="logo" />
@@ -26,16 +26,16 @@ const Header = () => {
             <a href="#toYoga"> Yoga</a>
           </li>
           <li>
-            <a to="toAbout"> About</a>
+            <a href="#toAbout"> About</a>
           </li>
           <li>
-            <a to="toFood"> Food</a>
+            <a href="#toFood"> Food</a>
           </li>
           <li>
-            <a to="/ContactUs"> Contact Us</a>
+            <Link to="/ContactUs"> Contact Us</Link>
           </li>
           <li>
-            <a to="/Login"> Login</a>
+            <Link to="/Login"> Login</Link>
           </li>
         </ul>
         {/* <div className="hamburger"> */}

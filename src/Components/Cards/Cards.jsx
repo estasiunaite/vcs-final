@@ -7,7 +7,7 @@ import IconForest from "../../Assets/icons/forest.svg";
 
 const Cards = () => {
   return (
-    <div className="cardsSection">
+    <div id="toAbout" className="cardsSection">
       <div className="container cards__container">
         <Card
           cardImgLink={IconYoga}

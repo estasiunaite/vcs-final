@@ -7,7 +7,7 @@ import food from "../../Assets/images/color/food.jpg";
 
 const Food = () => {
   return (
-    <div className="foodSection ">
+    <div id="toFood" className="foodSection ">
       <div className="container food__container">
         <div className="foodPic">
           <img src={foodbw} alt="" />
