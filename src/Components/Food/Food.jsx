@@ -8,9 +8,6 @@ import food from "../../Assets/images/color/food.jpg";
 const Food = () => {
   return (
     <div className="foodSection ">
-      <div className="themeDividerVerticalFood">
-        <ThemeDividerVertical themeName="Food" />
-      </div>
       <div className="container food__container">
         <div className="foodPic">
           <img src={foodbw} alt="" />
@@ -30,6 +27,9 @@ const Food = () => {
             <LearnMoreBtn />
           </div>
         </div>
+      </div>
+      <div className="themeDividerVerticalFood">
+        <ThemeDividerVertical themeName="Food" />
       </div>
     </div>
   );

@@ -1,44 +1,104 @@
-.roomsSection {
-  width: 100%;
-  margin: 0;
-  text-align: right;
-}
-
-.roomsSection .roomPictures {
-  display: flex;
-  justify-content: center;
-}
-
 .roomsSection > h3 {
   margin: 1rem 2rem;
 }
 
-.roomsSection.container.container__rooms {
-  display: grid;
-  grid-template-columns: repeat (2, 1fr);
-  grid-gap: 30px;
-  padding: 1rem;
+.roomsSection {
+  position: relative;
+}
+
+.roomsSection .themeDividerVerticalRooms {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.doubleRoom,
+.sharedRoom {
+  position: relative;
+}
+
+.doubleRoom,
+.sharedRoom {
+  position: relative;
+}
+.doubleRoom h3,
+.sharedRoom h3 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: var(--color-blue1);
+}
+/* .displayedRoom {
+  position: absolute;
+}
+.roomPrices {
+  float: right;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+} */
+.roomsSection .ThemeDividerHorizontal {
   display: none;
 }
-
-.roomsSection img {
-  width: 250px;
+.container.container__rooms {
+  display: grid;
+  grid-template-columns: 1.9fr 1fr;
+  grid-template-rows: 2.5fr 13.7fr 1fr 13.7fr 4.2fr;
+  grid-column-gap: 26px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+    "displayedRoom ."
+    "displayedRoom doubleRoom"
+    "displayedRoom ."
+    "displayedRoom sharedRoom"
+    ". tertiaryRoom";
 }
 
-/* .container.rooms__container {
-  min-height: 550px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: red;
+.displayedRoom {
+  grid-area: displayedRoom;
 }
-.roomsSection.roomPrices p {
-  color: var(--color-light);
+
+.doubleRoom {
+  grid-area: doubleRoom;
+}
+.sharedRoom {
+  grid-area: sharedRoom;
 }
 
 @media screen and (max-width: 1024px) {
-  .container.rooms__container {
-    display: flex;
-    flex-direction: column;
+  .roomPrices {
+    display: none;
   }
-} */ ;
+  .roomsSection .themeDividerVerticalRooms {
+    display: none;
+  }
+  .roomsSection .ThemeDividerHorizontal {
+    display: block;
+  }
+  .roomsSection > img {
+    width: 100%;
+  }
+  .container.container__rooms {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    grid-template-areas:
+      "displayedRoom"
+      "doubleRoom"
+      "sharedRoom";
+  }
+
+  .displayedRoom {
+    grid-area: displayedRoom;
+  }
+  .doubleRoom {
+    grid-area: doubleRoom;
+  }
+  .sharedRoom {
+    grid-area: sharedRoom;
+  }
+  /* .roomPrices {
+    grid-area:  roomPrices;
+  } */
+}

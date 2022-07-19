@@ -4,7 +4,7 @@ import "./ThemeDividerHorizontal.css";
 const ThemeDividerHorizontal = ({ themeName }) => {
   return (
     <div className="dividerHor">
-      <div class="line-3"></div>
+      <div className="line-3"></div>
       <h2 className="themeNameHor">{themeName}</h2>
     </div>
   );

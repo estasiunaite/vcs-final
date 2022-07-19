@@ -7,7 +7,7 @@ const Card = ({ cardImgLink, title, paragraph }) => (
       <img className="cardImg" src={cardImgLink} />
     </a>
     <h3 className="title">{title}</h3>
-    <div class="line-1">
+    <div className="line-1">
       <hr></hr>
     </div>
     <p className="paragraph">{paragraph}</p>

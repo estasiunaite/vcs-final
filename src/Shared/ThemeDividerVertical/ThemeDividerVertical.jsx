@@ -5,7 +5,7 @@ const ThemeDividerVertical = ({ themeName }) => {
   return (
     <div className="dividerVert">
       <h1 className="themeName">{themeName}</h1>
-      <div class="line-2"></div>
+      <div className="line-2"></div>
     </div>
   );
 };
