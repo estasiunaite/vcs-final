@@ -3,7 +3,7 @@ import "./ThemeDividerVertical.css";
 
 const ThemeDividerVertical = ({ themeName }) => {
   return (
-    <div ClassName="dividerVert">
+    <div className="dividerVert">
       <h1 className="themeName">{themeName}</h1>
       <div class="line-2"></div>
     </div>

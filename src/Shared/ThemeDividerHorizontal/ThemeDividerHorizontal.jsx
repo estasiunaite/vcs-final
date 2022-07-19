@@ -3,9 +3,9 @@ import "./ThemeDividerHorizontal.css";
 
 const ThemeDividerHorizontal = ({ themeName }) => {
   return (
-    <div ClassName="dividerHor">
-      <h2 className="themeNameHor">{themeName}</h2>
+    <div className="dividerHor">
       <div class="line-3"></div>
+      <h2 className="themeNameHor">{themeName}</h2>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 .dividerVert * {
   width: 150px;
-  display: none;
+  display: flex;
+  flex-direction: column;
   height: 150px;
 }
 .themeName {

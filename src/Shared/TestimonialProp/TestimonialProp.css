@@ -1,7 +1,7 @@
-.quote > p {
+.quote {
   font-family: "Montserrat", sans-serif;
   font-size: 367px;
-  color: var(--color-grey1);
+  color: var(--color-grey3);
 }
 
 .testimonialSubject,

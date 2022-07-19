@@ -8,7 +8,7 @@ const TestimonialProp = ({
 }) => {
   return (
     <div className="testimonialProp">
-      <p classNane="quote">“</p>
+      <p className="quote">“</p>
       <h2 className="testimonialSubject">{testimonialSubject}</h2>
       <p className="testimonialText">{testimonialText}</p>
       <p className="signature">{signature}</p>
