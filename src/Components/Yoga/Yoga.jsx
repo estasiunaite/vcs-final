@@ -6,7 +6,7 @@ import LearnMoreBtn from "../../Shared/LearnMoreBtn";
 import yogaTeacher from "../../Assets/images/bw/yogaTeacher.jpg";
 const Yoga = () => {
   return (
-    <div className="yogaSection ">
+    <div id="toYoga" className="yogaSection">
       <div className="themeDividerVerticalyoga">
         <ThemeDividerVertical themeName="yoga" />
       </div>

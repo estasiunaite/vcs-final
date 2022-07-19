@@ -27,14 +27,14 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
-
+/* 
 html {
   scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 body {
   font-family: "Montserrat", sans-serif;

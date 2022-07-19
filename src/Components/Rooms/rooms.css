@@ -8,7 +8,7 @@
 
 .roomsSection .themeDividerVerticalRooms {
   position: absolute;
-  top: 8px;
+  bottom: 120px;
   left: 16px;
 }
 .doubleRoom,
@@ -27,16 +27,15 @@
   right: 16px;
   color: var(--color-blue1);
 }
-/* .displayedRoom {
-  position: absolute;
+.displayedRoom {
+  position: relative;
 }
 .roomPrices {
-  float: right;
+  right: 0;
   position: absolute;
-  left: 0px;
   top: 0px;
-  z-index: 1000;
-} */
+  z-index: 10;
+}
 .roomsSection .ThemeDividerHorizontal {
   display: none;
 }
@@ -51,7 +50,7 @@
     "displayedRoom doubleRoom"
     "displayedRoom ."
     "displayedRoom sharedRoom"
-    ". tertiaryRoom";
+    ". sharedRoom";
 }
 
 .displayedRoom {
