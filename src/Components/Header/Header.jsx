@@ -20,9 +20,6 @@ const Header = () => {
         {/* <ul className={clicked ? [navMenu, active].join(" ") : [navMenu]}> */}
         <ul className={clicked ? "active" : "navMenu"}>
           <li>
-            <a to="/"> Home</a>
-          </li>
-          <li>
             <a href="#toYoga"> Yoga</a>
           </li>
           <li>

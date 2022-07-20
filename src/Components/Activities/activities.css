@@ -1,30 +1,33 @@
 .activitiesSection {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .aboutActivities {
-  width: 350px;
+  max-width: 350px;
   min-height: 470px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
-.aboutActivities p {
-  padding: 30px;
   text-align: left;
 }
+
 .lobbyPic img {
-  height: 661px;
-  width: 570px;
-  align-self: flex-start;
+  max-height: 661px;
+  max-width: 570px;
+  position: relative;
+  align-self: flex-end;
 }
 
 .activitiesRec {
   height: 477px;
   width: 100%;
   background-color: var(--color-grey2);
+  z-index: -20;
+  position: absolute;
+}
+
+.roomsSection .themeDividerVerticalRooms {
+  position: absolute;
+  bottom: 120px;
+  left: 16px;
 }

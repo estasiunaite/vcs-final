@@ -8,14 +8,12 @@ import lobby from "../../Assets/images/color/lobby.jpg";
 const Activities = () => {
   return (
     <div className="activitiesSection ">
-      <div className="themeDividerVerticalActivities">
+      {/* <div className="themeDividerVerticalActivities">
         <ThemeDividerVertical themeName="Activities" />
-      </div>
+      </div> */}
       <div className="container activities__container">
         <div className="lobbyPic">
           <img src={lobbybw} alt="" />
-
-          <div className="activitiesRec"></div>
         </div>
         <div className="aboutActivities">
           <h2>gathering place</h2>
@@ -25,10 +23,11 @@ const Activities = () => {
             and eating dinner to the sunset. Enjoy pleasant breezes and
             incredible views of the lake, forest and evening sunsets.
           </p>
-          <div className="learnMoreBtn">
+          <div className="learnMoreBtnActivities">
             <LearnMoreBtn />
           </div>
         </div>
+        <div className="activitiesRec"></div>
       </div>
     </div>
   );
