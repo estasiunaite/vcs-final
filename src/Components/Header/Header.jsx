@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import { Link } from "react-router-dom";
-import "./header.css";
+import styles from "./header.css";
 import Logo from "../../Assets/icons/logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -17,11 +17,11 @@ const Header = () => {
           <img src={Logo} alt="logo" />
         </Link>
 
-        {/* <ul className="nav-menu"> */}
-        <ul className={clicked ? "nav-menu active" : "nav-menu"}>
-          {/* <li>
+        {/* <ul className={clicked ? [navMenu, active].join(" ") : [navMenu]}> */}
+        <ul className={clicked ? "active" : "navMenu"}>
+          <li>
             <a to="/"> Home</a>
-          </li> */}
+          </li>
           <li>
             <a href="#toYoga"> Yoga</a>
           </li>
@@ -38,7 +38,6 @@ const Header = () => {
             <Link to="/Login"> Login</Link>
           </li>
         </ul>
-        {/* <div className="hamburger"> */}
         <div className="hamburger" onClick={handleClick}>
           {clicked ? (
             <AiOutlineClose className="icon" />

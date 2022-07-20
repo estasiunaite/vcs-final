@@ -6,7 +6,7 @@
   background-color: var(--color-primary);
   padding: 0 2rem;
   box-shadow: 0 2px 4px #00000080;
-  position: fixed;
+
   z-index: 1000;
 }
 
@@ -21,10 +21,10 @@
 .logo {
   padding: 5px;
   height: 100% 24px;
-  width: 200px;
+  max-width: 200px;
 }
 
-.container.header__container .nav-menu {
+.navMenu {
   display: flex;
   letter-spacing: 0.16em;
   gap: 45px;
@@ -46,9 +46,11 @@
 @media screen and (max-width: 1182px) {
   .hamburger {
     display: block;
+    cursor: pointer;
+    margin: 15px;
   }
 
-  .nav-menu.active {
+  /* .nav-menu.active {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -60,15 +62,34 @@
     background-color: var(--color-primary) 0.98;
     transition: 0.4s ease-in-out;
     z-index: 10;
-  }
+  } */
 
-  .nav-menu {
-    background-color: var(--color-primary) 0.98;
-  }
-
-  .nav-menu .active {
+  .navMenu {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
     right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    transition: left 1s;
   }
+
+  .active {
+    left: 0;
+  }
+  .navMenu a {
+    font-size: 2rem;
+  }
+
+  /* .nav-menu .active {
+    right: 0;
+  } */
 
   /* header .navbar li a {
         font-size: 2rem;
