@@ -1,7 +1,22 @@
 import React from "react";
 
-const ContactUs = () => {
-  return <div>This is the Contact Us page</div>;
-};
+import Header from "../Components/Header/Header";
+
+const ContactUs = () => (
+  <>
+    <Header />
+    <div>
+      <h1
+        style={{
+          textSize: "red",
+          backgroundColor: "lightblue",
+          height: "1000px",
+        }}
+      >
+        This is the Contact Us page
+      </h1>
+    </div>
+  </>
+);
 
 export default ContactUs;

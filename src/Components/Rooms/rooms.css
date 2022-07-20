@@ -16,10 +16,6 @@
   position: relative;
 }
 
-.doubleRoom,
-.sharedRoom {
-  position: relative;
-}
 .doubleRoom h3,
 .sharedRoom h3 {
   position: absolute;
@@ -31,6 +27,7 @@
   position: relative;
 }
 .roomPrices {
+  object-position: right top;
   right: 0;
   position: absolute;
   top: 0px;
@@ -42,7 +39,7 @@
 .container.container__rooms {
   display: grid;
   grid-template-columns: 1.9fr 1fr;
-  grid-template-rows: 2.5fr 13.7fr 1fr 13.7fr 4.2fr;
+  grid-template-rows: 2.7fr 13.7fr 1fr 13.7fr 4.2fr;
   grid-column-gap: 26px;
   grid-row-gap: 0px;
   grid-template-areas:

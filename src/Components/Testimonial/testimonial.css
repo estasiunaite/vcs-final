@@ -1,0 +1,7 @@
+.container.testimonialContainer {
+  min-height: 500px;
+  padding: 100px;
+  display: flex;
+
+  justify-content: center;
+}

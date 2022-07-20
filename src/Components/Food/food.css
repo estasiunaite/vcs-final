@@ -1,30 +1,50 @@
-.container .food__container {
+.container.food__container {
+  min-height: 550px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: space-between;
 }
 
-.aboutFood {
-  width: 350px;
-  min-height: 470px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
+.foodSection .themeDividerVerticalFood {
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+
+  align-self: right;
 }
-.aboutFood p {
-  padding: 30px;
-  text-align: left;
-}
-.foodPic img {
-  height: 486px;
-  width: 729px;
+/* .foodPic img {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .foodPic {
+  max-height: 486px;
+  max-width: 729px;
+
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+.foodPic {
+  max-height: 594px;
+  max-width: 833px;
+  position: relative;
 }
 
 .gradientRec {
-  height: 530px;
-  width: 810px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: -10;
+  margin: 0;
+  padding: 0;
+}
+
+.foodPic .gradientRec {
+  height: 100%;
+  width: 100%;
   margin-top: 50px;
   margin: 50px;
   border: 10px solid;
@@ -36,27 +56,23 @@
     var(--color-blue1),
     var(--color-light)
   );
-
-  /* border-color: white;
-  border-image-source: linear-gradient(to right, white, #003391);
-  border-image-slice: 1;
-  border-width: 5px;
-  z-index: -1;
-
-  border: 20px solid;
-  position: relative; */
 }
-
-/* border: 20px solid;
-  border-image: linear-gradient(to right, white, var(--color-blue1)); */
-
-/* .aboutFood .learnMoreBtn {
+.aboutFood {
+  width: 350px;
+  min-height: 470px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutFood p {
   padding: 30px;
-  align-items: left;
-} */
+  text-align: left;
+}
 @media screen and (max-width: 1024px) {
-  .foodSection {
+  .container.food__container {
     flex-direction: column;
+    justify-content: center;
   }
   .foodPic {
     width: 100%;

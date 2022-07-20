@@ -1,7 +1,7 @@
 .activitiesSection {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .aboutActivities {
@@ -20,6 +20,7 @@
 .lobbyPic img {
   height: 661px;
   width: 570px;
+  align-self: flex-start;
 }
 
 .activitiesRec {

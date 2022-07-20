@@ -5,7 +5,7 @@ import TestimonialProp from "../../Shared/TestimonialProp/TestimonialProp";
 
 const Testimonial = () => {
   return (
-    <div>
+    <div className="container testimonialContainer">
       <TestimonialProp
         testimonialSubject="5 stars"
         testimonialText="Wow, I can't praise this experience enough! I loved the freedom of doing

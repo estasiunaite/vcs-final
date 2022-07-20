@@ -12,7 +12,7 @@ import room3bw from "../../Assets/images/bw/room3bw.jpg";
 
 const Rooms = () => {
   return (
-    <div className="roomsSection">
+    <div id="toRooms" className="roomsSection">
       <div className="themeDividerVerticalRooms">
         <ThemeDividerVertical themeName="Rooms" />
       </div>

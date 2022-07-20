@@ -2,6 +2,8 @@
   font-family: "Montserrat", sans-serif;
   font-size: 367px;
   color: var(--color-grey3);
+  position: absolute;
+  z-index: -10;
 }
 
 .testimonialSubject,
@@ -9,6 +11,8 @@
   font-style: italic;
   font-size: 24px;
   line-height: 1.6;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .testimonialSubject {
@@ -18,4 +22,19 @@
 
 .signature {
   font-size: 24px;
+}
+.testimonialProp {
+  min-height: 200px;
+  background-color: rgba(0, 51, 145, 0.5);
+
+  max-height: 450px;
+  /* max-height: 450px; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.testimonialProp .quote {
+  position: absolute;
 }
