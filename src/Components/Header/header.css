@@ -8,9 +8,10 @@
   box-shadow: 0 2px 4px #00000080;
   position: fixed;
   z-index: 1000;
+  position: relative;
 }
 
-.container.header__container {
+.header__container {
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -63,7 +64,9 @@
     transition: 0.4s ease-in-out;
     z-index: 10;
   } */
-
+  .header__container {
+    margin: 0;
+  }
   .navMenu {
     background-color: var(--color-primary);
     display: flex;

@@ -12,7 +12,6 @@
   max-width: 350px;
   min-height: 470px;
   text-align: left;
-  z-index: 20;
 }
 .learnMoreBtnActivities {
   margin-top: 30px;
@@ -32,10 +31,14 @@
 }
 .aboutActivities {
   position: absolute;
-  align-self: center;
+  align-self: flex-start;
+  left: 150px;
   margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 150px;
+  margin-left: 300px;
+}
+
+.themeDividerVerticalActivities {
+  bottom: 333px;
 }
 
 @media screen and (max-width: 1218px) {
@@ -50,8 +53,9 @@
 
   .lobbyPic {
     width: 100%;
+    height: 100%;
     margin-top: 50px;
-    align-self: flex-start;
+    align-self: center;
     position: relative;
   }
 
@@ -60,9 +64,10 @@
   }
   .aboutActivities {
     position: relative;
+
     align-self: center;
+    left: 0;
     margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 12px;
+    margin-left: 30px;
   }
 }
