@@ -13,7 +13,7 @@ import ImageForestBw from "../../Assets/images/bw/forestbw.jpg";
 const Gallery = () => {
   return (
     <div className="galleryContainer">
-      <div className="ThemeDividerHorizontalgallery">
+      <div className="themeDividerHorizontalgallery">
         <ThemeDividerHorizontal themeName="gallery" />
       </div>
       <div className="sliderContainer"></div>

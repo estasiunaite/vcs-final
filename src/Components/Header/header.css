@@ -64,9 +64,7 @@
     transition: 0.4s ease-in-out;
     z-index: 10;
   } */
-  .header__container {
-    margin: 0;
-  }
+
   .navMenu {
     background-color: var(--color-primary);
     display: flex;

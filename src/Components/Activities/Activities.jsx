@@ -1,6 +1,7 @@
 import React from "react";
 import "./activities.css";
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
+import ThemeDividerHorizontal from "../../Shared/ThemeDividerHorizontal/ThemeDividerHorizontal";
 import LearnMoreBtn from "../../Shared/LearnMoreBtn";
 import lobbybw from "../../Assets/images/bw/lobbybw.jpg";
 import lobby from "../../Assets/images/color/lobby.jpg";
@@ -8,6 +9,9 @@ import lobby from "../../Assets/images/color/lobby.jpg";
 const Activities = () => {
   return (
     <div className="activitiesSection ">
+      <div className="themeDividerHorizontalActivities">
+        <ThemeDividerHorizontal themeName="Activities" />
+      </div>
       {/* <div className="container activities__container"> */}
       <div className="activitiesRec">
         <div className="themeDividerVerticalActivities">
