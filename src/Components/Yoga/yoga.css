@@ -1,38 +1,108 @@
-.yogaSection {
+.container.yoga__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 100px;
 }
 
-.aboutyoga {
-  width: 350px;
-  min-height: 470px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  /* color: var(--color-light); */
-  color: red;
+.yogaPic {
+  max-height: 655px;
+  max-width: 664px;
 }
-.aboutyoga p {
-  padding: 30px;
-  text-align: left;
-  /* color: var(--color-light); */
-  color: red;
-}
-.yogaPic img {
+
+.blueRectangle {
   height: 655px;
   width: 664px;
+  background-color: var(--color-blue2);
+  z-index: -50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.yogaRec1 {
+.aboutYogaParagraph p,
+.aboutYogaParagraph h2 {
+  text-align: left;
+  color: var(--color-light);
+  padding-bottom: 30px;
+}
+.aboutYogaParagraph {
+  max-width: 450px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: var(--color-light);
+  padding: 30px;
+}
+
+@media screen and (max-width: 1326px) {
+  .container.yoga__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* ===================== complicatred design ===================== */
+
+/* .container.yoga__container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aboutYogaParagraph {
+  max-width: 450px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: var(--color-light);
+}
+
+.aboutYogaParagraph p {
+  text-align: left;
+  color: var(--color-light);
+}
+.yogaPic {
+  max-height: 655px;
+  max-width: 664px;
+  z-index: -100;
+  position: absolute;
+  left: 0;
+}
+.blueRectangle {
   height: 433px;
   width: 595px;
   background-color: var(--color-blue2);
+  position: absolute;
+  display: top right;
+  z-index: -50;
 }
-.yogaRec2 {
+
+.whiteRectangle {
   height: 433px;
   width: 595px;
   background-color: var(--color-grey2);
   opacity: 45%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  z-index: -30;
 }
+
+.rectangleContainer {
+  height: 484px;
+  width: 655px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
