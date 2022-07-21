@@ -168,31 +168,12 @@ img {
   object-fit: cover;
 }
 
-/* .container {
-    display: grid;
-    grid-template-columns: 300px auto;
-    grid-auto-rows: 100px auto 100px;
-    grid-gap: 10px;
-    grid-template-areas:
-        'header header header'
-        'card card card'
-        'content content content'
-        'footer footer footer'
-} */
-
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
     padding: 12px;
-    /* grid-template-columns: 300px auto auto;
-        grid-auto-rows: 100px auto 100px;
-        grid-template-areas:
-            'header header header'
-            'card card card'
-            'content content content'
-            'footer footer footer' */
   }
 
   section {
@@ -206,14 +187,6 @@ img {
   .container {
     width: var(--container-width-sm);
     padding: 12px;
-
-    /* grid-template-areas:
-            'header'
-            'hero'
-            'card'
-            'card'
-            'card'
-            'footer' */
   }
 
   section,
@@ -221,118 +194,3 @@ img {
     margin-bottom: 2rem;
   }
 }
-
-/* .navbar {
-    grid-area: header;
-}
-
-
-.hero {
-    grid-area: hero;
-}
-
-.cards {
-    grid-area: card;
-}
-
-.footer {
-    grid-area: footer;
-} */
-
-/* 
-
-.btn:active {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-}
-
-.btn:hover,
-.btn:focus {
-    color: #fcf8f2;
-    background-color: #201c3a;
-    border: 2px solid #201c3a;
-}
-
-.btn>* {
-    position: relative;
-}
-
-.btn span {
-    display: block;
-    padding: 12px 24px;
-}
-
-
-.app {
-    display: grid;
-    grid-template-columns: 300px auto;
-    grid-auto-rows: 100px auto 100px;
-    grid-gap: 10px;
-    grid-template-areas:
-        'header header header'
-        'content content content'
-        'card card card'
-        'footer footer footer'
-}
-
-@media only screen and (min-width: 1400px) {
-    .app {
-        grid-template-columns: 300px auto auto;
-        grid-auto-rows: 100px auto 100px;
-        grid-template-areas:
-            'header header header'
-            'content content content'
-            'card card card'
-            'footer footer footer'
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .app {
-        grid-template-areas:
-            'header'
-            'content'
-            'card'
-            'card'
-            'card'
-            'footer'
-
-    }
-}
-
-@media only screen and (min-width: 750px) {
-    body {
-        grid-template-columns: 300px auto;
-        grid-auto-rows: 100px auto;
-        grid-template-areas:
-            'header header'
-            'content content'
-            'card card'
-            'footer footer'
-    }
-}
-
-.header {
-    grid-area: header;
-}
-
-
-.main {
-    grid-area: content;
-} 
-
-.cards {
-    grid-area: card;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-
-
-
-.container {
-    max-width: 1240px;
-    margin: auto;
-}
-  */

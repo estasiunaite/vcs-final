@@ -1,33 +1,68 @@
-.activitiesSection {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.aboutActivities {
-  max-width: 350px;
-  min-height: 470px;
-  text-align: left;
-}
-
-.lobbyPic img {
-  max-height: 661px;
-  max-width: 570px;
-  position: relative;
-  align-self: flex-end;
-}
-
 .activitiesRec {
   height: 477px;
   width: 100%;
   background-color: var(--color-grey2);
   z-index: -20;
-  position: absolute;
+}
+.lobbyPic img {
+  max-height: 661px;
+  max-width: 570px;
+}
+.aboutActivities {
+  max-width: 350px;
+  min-height: 470px;
+  text-align: left;
+  z-index: 20;
+}
+.learnMoreBtnActivities {
+  margin-top: 30px;
 }
 
-.roomsSection .themeDividerVerticalRooms {
+.activitiesSection {
+  display: flex;
+  flex-direction: row;
+}
+.activitiesRec {
+  position: relative;
+}
+.lobbyPic {
   position: absolute;
-  bottom: 120px;
-  left: 16px;
+  align-self: flex-end;
+  right: 0;
+}
+.aboutActivities {
+  position: absolute;
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+}
+
+@media screen and (max-width: 1218px) {
+  .activitiesSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-grey2);
+  }
+
+  .lobbyPic {
+    width: 100%;
+    margin-top: 50px;
+    align-self: flex-start;
+    position: relative;
+  }
+
+  .activitiesRec {
+    display: none;
+  }
+  .aboutActivities {
+    position: relative;
+    align-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 12px;
+  }
 }
