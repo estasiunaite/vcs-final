@@ -45,6 +45,13 @@
     align-items: center;
     width: 100%;
   }
+  .blueRectangle {
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* ===================== complicatred design ===================== */
