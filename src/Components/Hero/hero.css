@@ -1,19 +1,26 @@
-.HeroImg {
-  /* background-position: center; */
+/* .hero {
+  position: relative;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+} */
+.hero {
+  position: relative;
+}
+.heroImg {
   width: 100%;
   z-index: -1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  position: relative;
 }
 
-.ctaBtn {
-  bottom: 90px;
+.cta {
   position: absolute;
-  align-self: center;
-  z-index: 10;
+  bottom: 10%;
+  margin: 0 auto;
 }

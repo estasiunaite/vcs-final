@@ -6,9 +6,9 @@ import CTA from "./CTA";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="HeroImg">
-        <img src={HeroImg} alt="hero_img" />
-        <div className="ctaBtn">
+      <div className="heroImg">
+        <img src={HeroImg} alt="hero_img" />{" "}
+        <div className="cta">
           <CTA />
         </div>
       </div>

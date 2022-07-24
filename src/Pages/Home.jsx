@@ -10,14 +10,12 @@ import Testimonial from "../Components/Testimonial/Testimonial";
 import Gallery from "../Components/Gallery/Gallery";
 import Map from "../Components/Map/Map";
 import Footer from "../Components/Footer/Footer";
-import Calendar from "../Components/Calendar/Calendar";
 import Yoga from "../Components/Yoga/Yoga";
 
 const Home = () => (
   <>
     <Header />
     <Hero />
-    <Calendar />
     <Cards />
     <Subscriptions />
     <Props />

@@ -31,7 +31,7 @@ const Yoga = () => {
         </div>
       </div>
       <div className="themeDividerVerticalyoga">
-        <ThemeDividerVertical themeName="yoga" />
+        <ThemeDividerVertical themeName="teachers" />
       </div>
     </div>
   );

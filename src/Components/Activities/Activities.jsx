@@ -10,20 +10,20 @@ const Activities = () => {
   return (
     <div className="activitiesSection ">
       <div className="themeDividerHorizontalActivities">
-        <ThemeDividerHorizontal themeName="Activities" />
+        <ThemeDividerHorizontal themeName="Environment" />
       </div>
       {/* <div className="container activities__container"> */}
       <div className="activitiesRec">
         <div className="themeDividerVerticalActivities">
-          <ThemeDividerVertical themeName="Activities" />
+          <ThemeDividerVertical themeName="Environment" />
         </div>
-      </div>{" "}
+      </div>
       <div className="lobbyPic">
         <img src={lobbybw} alt="" />
       </div>
       {/* <div className="container activities__container"> */}
       <div className="aboutActivities">
-        <h2>gathering place</h2>
+        <h2> Cosy Environment</h2>
         <p>
           This is a space for relaxing in a hammock or on the sofa, plugging
           into the internet with your personal laptop, sitting down to a game

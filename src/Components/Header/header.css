@@ -67,7 +67,6 @@
 
   .navMenu {
     background-color: var(--color-primary);
-
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -75,23 +74,30 @@
     align-items: flex-start;
     padding: 12px;
     left: -100%;
-
     right: 0;
     bottom: 0;
     top: 0;
     height: 500px;
-    width: 40%;
+    width: 50%;
     z-index: 10;
     transition: left 1s;
+    height: 100%;
+    padding: 93px;
+    box-shadow: 0px 2px 0px #00000080;
   }
 
   .active {
     left: 0;
+    height: 100%;
+    padding: 93px;
   }
   .navMenu a {
     font-size: 2rem;
     text-align: left;
   }
+  /* .navbar {
+    position: fixed;
+  } */
 
   /* .nav-menu .active {
     right: 0;

@@ -2,14 +2,14 @@ import React from "react";
 import "./props.css";
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
 import LearnMoreBtn from "../../Shared/LearnMoreBtn";
-import propsbw from "../../Assets/images/bw/propsbw.jpg";
+import props2bw from "../../Assets/images/bw/props2bw.jpg";
 
 const Props = () => {
   return (
     <div id="toProps" className="propsSection ">
       <div className="container props__container">
         <div className="propsPic">
-          <img src={propsbw} alt="" />
+          <img src={props2bw} alt="" />
           <div className="gradientRec">
             <div noRectangle></div>
           </div>
@@ -33,7 +33,7 @@ const Props = () => {
       </div>
 
       <div className="themeDividerVerticalProps">
-        <ThemeDividerVertical themeName="Props" />
+        <ThemeDividerVertical themeName="Eqiuipment" />
       </div>
     </div>
   );
