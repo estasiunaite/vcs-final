@@ -13,37 +13,37 @@ import yearbw from "../../Assets/images/bw/yearbw.jpg";
 const Subscriptions = () => {
   return (
     <div id="toSubscriptions" className="subscriptionSection">
-      <div className="themeDividerVerticalSubscriptions">
-        <ThemeDividerVertical themeName="Subscriptions" />
-      </div>
       <div className="themeDividerHorizontalSubscriptions">
-        <ThemeDividerHorizontal themeName="Subscriptions" />
+        <ThemeDividerHorizontal themeName="Membership" />
       </div>
       <div className="container container__subscriptions">
         <div className="displayedSubscription">
-          <div className="Subscription1">
+          <div className="subscription1">
             <img className="oneTimebw" src={oneTimebw} alt="" />
           </div>
           <div className="subscriptionPrices">
             <PriceCard
               priceTag="9.99€"
-              roomType="one time lesson"
+              roomType="one lesson"
               roomDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis delectus non debitis quis soluta obcaecati veniam! "
             />
           </div>
         </div>
-        <div className="Subscription2">
+        <div className="subscription2">
           <div className="month">
-            <h3>one month</h3>
+            <h2>one month</h2>
             <img className="monthbw" src={monthbw} alt="" />
           </div>
         </div>
-        <div className="Subscription3">
+        <div className="subscription3">
           <div className="year">
-            <h3>One year</h3>
+            <h2>One year</h2>
             <img className="yearbw" src={yearbw} alt="" />
           </div>
         </div>
+      </div>
+      <div className="themeDividerVerticalSubscriptions">
+        <ThemeDividerVertical themeName="Membership" />
       </div>
     </div>
   );

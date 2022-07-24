@@ -1,7 +1,7 @@
 import React from "react";
 
-const FoodPage = () => {
-  return <div>This is the Food page</div>;
+const PropsPage = () => {
+  return <div>This is the Props page</div>;
 };
 
-export default FoodPage;
+export default PropsPage;

@@ -26,7 +26,7 @@ const Header = () => {
             <a href="#toAbout"> About</a>
           </li>
           <li>
-            <a href="#toFood"> Food</a>
+            <a href="#toProps"> Props</a>
           </li>
           <li>
             <Link to="/ContactUs"> Contact Us</Link>

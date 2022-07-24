@@ -4,7 +4,7 @@ import Header from "../Components/Header/Header";
 import Hero from "../Components/Hero/Hero";
 import Cards from "../Components/Cards/Cards";
 import Subscriptions from "../Components/Subscriptions/Subscriptions";
-import Food from "../Components/Food/Food";
+import Props from "../Components/Props/Props";
 import Activities from "../Components/Activities/Activities";
 import Testimonial from "../Components/Testimonial/Testimonial";
 import Gallery from "../Components/Gallery/Gallery";
@@ -20,7 +20,7 @@ const Home = () => (
     <Calendar />
     <Cards />
     <Subscriptions />
-    <Food />
+    <Props />
     <Activities />
     <Yoga />
     <Gallery />

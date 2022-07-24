@@ -14,7 +14,7 @@ const Yoga = () => {
           <div className="blueRectangle">
             <div className="whiteRectangle">
               <div className="aboutYogaParagraph">
-                <h2>ALIGNMENT</h2>
+                <h2>our teachers</h2>
                 <p>
                   Teachers focuses on the correct sequencing of postures to
                   bring about and enhance specific benefits and effects. Regular
