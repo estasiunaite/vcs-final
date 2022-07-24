@@ -4,7 +4,7 @@ import ActivitiesPage from "./Pages/ActivitiesPage";
 import ContactUs from "./Pages/ContactUs";
 import FoodPage from "./Pages/FoodPage";
 import Login from "./Pages/Login";
-import RoomsPage from "./Pages/RoomsPage";
+import SubscriptionsPage from "./Pages/SubscriptionsPage";
 import YogaPage from "./Pages/YogaPage";
 import { Routes, Route } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/FoodPage" element={<FoodPage />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/RoomsPage" element={<RoomsPage />} />
+        <Route path="/SubscriptionsPage" element={<SubscriptionsPage />} />
         <Route path="/YogaPage" element={<YogaPage />} />
       </Routes>
     </div>

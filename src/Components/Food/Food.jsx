@@ -11,7 +11,9 @@ const Food = () => {
       <div className="container food__container">
         <div className="foodPic">
           <img src={foodbw} alt="" />
-          <div className="gradientRec"></div>
+          <div className="gradientRec">
+            <div noRectangle></div>
+          </div>
         </div>
 
         <div className="aboutFood">

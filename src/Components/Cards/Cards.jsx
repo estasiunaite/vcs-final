@@ -3,7 +3,7 @@ import Card from "../../Shared/Card/Card";
 import "./cards.css";
 import IconYoga from "../../Assets/icons/yoga.svg";
 import IconVegan from "../../Assets/icons/vegan.svg";
-import IconForest from "../../Assets/icons/forest.svg";
+import yogaMat from "../../Assets/icons/yogaMat.svg";
 
 const Cards = () => {
   return (
@@ -13,21 +13,21 @@ const Cards = () => {
           // reDirection={toYoga}
           cardImgLink={IconYoga}
           title="certified teachers"
-          paragraph="You can be sure that your teacher has received thousands of hours of training."
+          paragraph="Laborum, placeat neque earum eum possimus facere cupiditate voluptates. Veniam, odit!"
         />
 
         <Card
           // reDirection={toFood}
           cardImgLink={IconVegan}
-          title="healthy food"
-          paragraph="We believe that nutritious, wholesome food is essential for a happy life."
+          title="healthy snacks"
+          paragraph="Nemo itaque quam deleniti doloribus sint mollitia adipisicing quas, facilis aperiam aliquam hic."
         />
 
         <Card
-          // reDirection={toRooms}
-          cardImgLink={IconForest}
-          title="coMFortable rooms"
-          paragraph="Excellent in-room amenities and facilities will create the most relaxing feel."
+          // reDirection={toSubscriptions}
+          cardImgLink={yogaMat}
+          title="yoga props"
+          paragraph="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, ipsam deserunt vero?"
         />
       </div>
     </div>

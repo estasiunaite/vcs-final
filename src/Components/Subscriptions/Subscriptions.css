@@ -1,0 +1,101 @@
+.subscriptionSection > h3 {
+  margin: 1rem 2rem;
+}
+
+.subscriptionSection {
+  position: relative;
+}
+
+.subscriptionSection .themeDividerVerticalSubscriptions {
+  position: absolute;
+  bottom: 120px;
+  left: 16px;
+}
+.month,
+.year {
+  position: relative;
+}
+
+.month h3,
+.year h3 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: var(--color-light);
+  font-size: 24px;
+}
+.displayedSubscription {
+  position: relative;
+}
+.subscriptionPrices {
+  object-position: right top;
+  right: 0;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+.subscriptionSection .ThemeDividerHorizontalSubscriptions {
+  display: none;
+}
+.container.container__subscriptions {
+  display: grid;
+  grid-template-columns: 1.9fr 1fr;
+  grid-template-rows: 2.7fr 13.7fr 1fr 13.7fr 4.2fr;
+  grid-column-gap: 26px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+    "displayedSubscription ."
+    "displayedSubscription month"
+    "displayedSubscription ."
+    "displayedSubscription year"
+    ". year";
+}
+
+.displayedSubscription {
+  grid-area: displayedSubscription;
+}
+
+.month {
+  grid-area: month;
+}
+.year {
+  grid-area: year;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscriptionPrices {
+    display: none;
+  }
+  .subscriptionSection .themeDividerVerticalSubscriptions {
+    display: none;
+  }
+  .subscriptionSection .ThemeDividerHorizontalSubscriptions {
+    display: block;
+  }
+  .subscriptionSection > img {
+    width: 100%;
+  }
+  .container.container__subscriptions {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    grid-template-areas:
+      "displayedSubscription"
+      "month"
+      "year";
+  }
+
+  .displayedSubscription {
+    grid-area: displayedSubscription;
+  }
+  .month {
+    grid-area: month;
+  }
+  .year {
+    grid-area: year;
+  }
+  /* .roomPrices {
+    grid-area:  roomPrices;
+  } */
+}

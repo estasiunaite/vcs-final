@@ -42,7 +42,7 @@
   padding: 0;
 }
 
-.foodPic .gradientRec {
+.container.food__container .foodPic .gradientRec {
   height: 100%;
   width: 100%;
   margin-top: 50px;
@@ -77,4 +77,19 @@
   .foodPic {
     width: 100%;
   }
+}
+.container.food__container .foodPic .gradientRec {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  margin: 10px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 20px;
+  opacity: 65%;
+  border-image-source: linear-gradient(
+    to left,
+    var(--color-blue1),
+    var(--color-light)
+  );
 }
