@@ -1,7 +1,15 @@
 import React from "react";
+import Header from "../Components/Header/Header";
 
 const SubscriptionsPage = () => {
-  return <div>This is the Subscriptions page</div>;
+  return (
+    <>
+      <Header />
+      <div>
+        <h1>This is the Membership page. Learning more.</h1>
+      </div>
+    </>
+  );
 };
 
 export default SubscriptionsPage;

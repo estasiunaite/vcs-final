@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./yoga.css";
 
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
@@ -23,7 +25,9 @@ const Yoga = () => {
                   & ill health as well as improving existing conditions.
                 </p>
                 <div className="btn-transp-light learnMoreBtnYoga">
-                  <LearnMoreBtn />
+                  <Link to="/YogaPage">
+                    <LearnMoreBtn />
+                  </Link>
                 </div>
               </div>
             </div>

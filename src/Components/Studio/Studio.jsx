@@ -1,28 +1,30 @@
 import React from "react";
-import "./activities.css";
+import { Link } from "react-router-dom";
+
+import "./Studio.css";
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
 import ThemeDividerHorizontal from "../../Shared/ThemeDividerHorizontal/ThemeDividerHorizontal";
 import LearnMoreBtn from "../../Shared/LearnMoreBtn";
 import lobbybw from "../../Assets/images/bw/lobbybw.jpg";
 import lobby from "../../Assets/images/color/lobby.jpg";
 
-const Activities = () => {
+const Studio = () => {
   return (
-    <div className="activitiesSection ">
-      <div className="themeDividerHorizontalActivities">
-        <ThemeDividerHorizontal themeName="Environment" />
+    <div className="environmentSection ">
+      <div className="themeDividerHorizontalEnvironment">
+        <ThemeDividerHorizontal themeName="Studio" />
       </div>
       {/* <div className="container activities__container"> */}
-      <div className="activitiesRec">
-        <div className="themeDividerVerticalActivities">
-          <ThemeDividerVertical themeName="Environment" />
+      <div className="environmentRec">
+        <div className="themeDividerVerticalEnvironment">
+          <ThemeDividerVertical themeName="Studio" />
         </div>
       </div>
       <div className="lobbyPic">
         <img src={lobbybw} alt="" />
       </div>
       {/* <div className="container activities__container"> */}
-      <div className="aboutActivities">
+      <div className="aboutEnvironment ">
         <h2> Cosy Environment</h2>
         <p>
           This is a space for relaxing in a hammock or on the sofa, plugging
@@ -30,8 +32,10 @@ const Activities = () => {
           and eating dinner to the sunset. Enjoy pleasant breezes and incredible
           views of the lake, forest and evening sunsets.
         </p>
-        <div className="learnMoreBtnActivities">
-          <LearnMoreBtn />
+        <div className="learnMoreBtnEnvironment">
+          <Link to="/StudioPage">
+            <LearnMoreBtn />
+          </Link>
         </div>
       </div>
       {/* </div> */}
@@ -40,4 +44,4 @@ const Activities = () => {
   );
 };
 
-export default Activities;
+export default Studio;

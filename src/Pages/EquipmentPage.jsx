@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Components/Header/Header";
 
-const PropsPage = () => {
+const EquipmentPage = () => {
   return (
     <>
       <Header />
@@ -12,4 +12,4 @@ const PropsPage = () => {
   );
 };
 
-export default PropsPage;
+export default EquipmentPage;

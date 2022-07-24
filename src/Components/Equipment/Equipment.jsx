@@ -1,10 +1,12 @@
 import React from "react";
-import "./props.css";
+import { Link } from "react-router-dom";
+
+import "./Equipment.css";
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
 import LearnMoreBtn from "../../Shared/LearnMoreBtn";
 import props2bw from "../../Assets/images/bw/props2bw.jpg";
 
-const Props = () => {
+const Equipment = () => {
   return (
     <div id="toProps" className="propsSection ">
       <div className="container props__container">
@@ -27,16 +29,18 @@ const Props = () => {
             eligendi est accusamus reiciendis incidunt ratione exercitationem.
           </p>
           <div className="learnMoreBtn">
-            <LearnMoreBtn />
+            <Link to="/EquipmentPage">
+              <LearnMoreBtn />
+            </Link>
           </div>
         </div>
       </div>
 
       <div className="themeDividerVerticalProps">
-        <ThemeDividerVertical themeName="Eqiuipment" />
+        <ThemeDividerVertical themeName="Equipment" />
       </div>
     </div>
   );
 };
 
-export default Props;
+export default Equipment;

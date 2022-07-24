@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./hero.css";
 import HeroImg from "../../Assets/images/color/hero_img.jpg";
 import CTA from "./CTA";
@@ -9,7 +11,9 @@ const Hero = () => {
       <div className="heroImg">
         <img src={HeroImg} alt="hero_img" />{" "}
         <div className="cta">
-          <CTA />
+          <Link to="/CheckSchedulePage">
+            <CTA />
+          </Link>
         </div>
       </div>
     </div>

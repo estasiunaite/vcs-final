@@ -1,9 +1,9 @@
-.activitiesSection {
+.environmentSection {
   display: flex;
   flex-direction: row;
 }
 
-.activitiesRec {
+.environmentRec {
   min-height: 477px;
   width: 100%;
   background-color: var(--color-grey2);
@@ -21,7 +21,7 @@
   right: 0;
 }
 
-.aboutActivities {
+.aboutEnvironment {
   max-width: 340px;
   max-height: 470px;
   text-align: left;
@@ -32,19 +32,19 @@
   margin-left: 200px;
 }
 
-.learnMoreBtnActivities {
+.learnMoreBtnEnvironment {
   margin-top: 30px;
 }
 
-.themeDividerVerticalActivities {
+.themeDividerVerticalEnvironment {
   bottom: 333px;
 }
-.themeDividerHorizontalActivities {
+.themeDividerHorizontalEnvironment {
   display: none;
 }
 
 @media screen and (max-width: 1326px) {
-  .activitiesSection {
+  .environmentSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,10 +63,10 @@
     left: 0;
   }
 
-  .activitiesRec {
+  .environmentRec {
     display: none;
   }
-  .aboutActivities {
+  .aboutEnvironment {
     position: relative;
     align-self: center;
     left: 0;
@@ -74,10 +74,10 @@
     margin: 30px;
   }
 
-  .themeDividerVerticalActivities {
+  .themeDividerVerticalEnvironment {
     display: none;
   }
-  .themeDividerHorizontalActivities {
+  .themeDividerHorizontalEnvironment {
     display: block;
     top: -10px;
   }

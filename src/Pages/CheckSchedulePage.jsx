@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../Components/Header/Header";
 
-const PropsPage = () => {
+const CheckSchedulePage = () => {
   return (
     <>
       <Header />
       <div>
-        <h1>This is the Equipment page. Learning more.</h1>
+        <h1>This is the schedule page.</h1>
       </div>
     </>
   );
 };
 
-export default PropsPage;
+export default CheckSchedulePage;
