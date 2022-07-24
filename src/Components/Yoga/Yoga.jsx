@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./yoga.css";
 
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
-import LearnMoreBtn from "../../Shared/LearnMoreBtnTranspWhite";
+import LearnMoreBtnWhite from "../../Shared/LearnMoreBtnWhite";
 import yogaTeacher from "../../Assets/images/bw/yogaTeacher.jpg";
 const Yoga = () => {
   return (
@@ -24,9 +24,9 @@ const Yoga = () => {
                   being. It is extremely beneficial for the prevention of injury
                   & ill health as well as improving existing conditions.
                 </p>
-                <div className="btn-transp-light learnMoreBtnYoga">
+                <div className="learnMoreBtnYoga">
                   <Link to="/YogaPage">
-                    <LearnMoreBtn />
+                    <LearnMoreBtnWhite />
                   </Link>
                 </div>
               </div>

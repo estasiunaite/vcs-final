@@ -21,10 +21,10 @@ const Header = () => {
             <a href="#toAbout"> About</a>
           </li>
           <li>
-            <a href="#toYoga"> Teachers</a>
+            <a href="#toStudio"> Studio</a>
           </li>
           <li>
-            <a href="#toStudio"> Studio</a>
+            <a href="#toYoga"> Teachers</a>
           </li>
           <li>
             <Link to="/ContactUs"> Contact Us</Link>

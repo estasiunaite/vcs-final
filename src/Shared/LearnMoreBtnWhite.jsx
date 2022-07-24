@@ -1,8 +1,8 @@
 import React from "react";
 
-const LearnMoreBtn = () => {
+const LearnMoreBtnWhite = () => {
   return (
-    <div className="learnMoreBtn">
+    <div className="LearnMoreBtnWhite">
       <a href="" className="btn btn-transp-light">
         learn more
       </a>
@@ -10,4 +10,4 @@ const LearnMoreBtn = () => {
   );
 };
 
-export default LearnMoreBtn;
+export default LearnMoreBtnWhite;

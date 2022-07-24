@@ -1,13 +1,14 @@
 footer {
-    text-transform: uppercase;
-    background-color: var(--color-primary);
-    color: var(--color-light);
+  margin-top: 0;
+  text-transform: uppercase;
+  background-color: var(--color-primary);
+  color: var(--color-light);
 
-    /* display: flex;
+  /* display: flex;
     justify-content: space-between;
     align-items: center; */
-    height: 200px;
-    /* gap: 2rem;
+  height: 100px;
+  /* gap: 2rem;
     padding: 0 2rem;
     letter-spacing: 0.5em;
     position: relative; */

@@ -10,7 +10,7 @@ import lobby from "../../Assets/images/color/lobby.jpg";
 
 const Studio = () => {
   return (
-    <div className="environmentSection ">
+    <div id="toStudio" className="environmentSection ">
       <div className="themeDividerHorizontalEnvironment">
         <ThemeDividerHorizontal themeName="Studio" />
       </div>
