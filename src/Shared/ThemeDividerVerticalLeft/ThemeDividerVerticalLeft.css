@@ -1,21 +1,22 @@
-.dividerVert * {
+.dividerVertLeft * {
   width: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
   height: 150px;
 }
-
-.themeName {
+/* .themeName {
   color: var(--color-blue1);
   transform: rotate(-90deg);
+  text-align: right;
   margin-bottom: 55px;
-}
+} */
 
 .line-2 {
   height: 2px;
   width: 297px;
   background: var(--color-blue1);
+  position: relative;
 }
 
 /* @media screen and (max-width: 1024px) {

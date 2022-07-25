@@ -1,10 +1,11 @@
-.subscriptionSection {
+#toSubscriptions {
   position: relative;
-  padding-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 .themeDividerVerticalSubscriptions {
   position: absolute;
-  bottom: -100px;
+  bottom: 100px;
   left: 16px;
 }
 .month,
@@ -59,13 +60,13 @@
   .subscriptionPrices {
     display: none;
   }
-  .subscriptionSection .themeDividerVerticalSubscriptions {
+  #toSubscriptions .themeDividerVerticalSubscriptions {
     display: none;
   }
-  .subscriptionSection .ThemeDividerHorizontalSubscriptions {
+  #toSubscriptions .ThemeDividerHorizontalSubscriptions {
     display: block;
   }
-  .subscriptionSection > img {
+  #toSubscriptionsn > img {
     width: 100%;
   }
   .container.container__subscriptions {

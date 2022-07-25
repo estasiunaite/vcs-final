@@ -12,7 +12,7 @@ import yearbw from "../../Assets/images/bw/yearbw.jpg";
 
 const Subscriptions = () => {
   return (
-    <div id="toSubscriptions" className="subscriptionSection">
+    <div id="toSubscriptions">
       <div className="themeDividerHorizontalSubscriptions">
         <ThemeDividerHorizontal themeName="Membership" />
       </div>

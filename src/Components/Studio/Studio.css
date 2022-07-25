@@ -1,6 +1,8 @@
-.environmentSection {
+#toStudio {
   display: flex;
   flex-direction: row;
+  margin-top: 300px;
+  margin-bottom: 150px;
 }
 
 .environmentRec {
@@ -32,19 +34,19 @@
   margin-left: 200px;
 }
 
-.learnMoreBtnEnvironment {
+.learnMoreBtnStudio {
   margin-top: 30px;
 }
 
-.themeDividerVerticalEnvironment {
+.themeDividerVerticalStudio {
   bottom: 333px;
 }
-.themeDividerHorizontalEnvironment {
+.themeDividerHorizontalStudio {
   display: none;
 }
 
 @media screen and (max-width: 1326px) {
-  .environmentSection {
+  #toStudio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,10 +76,10 @@
     margin: 30px;
   }
 
-  .themeDividerVerticalEnvironment {
+  .themeDividerVerticalStudio {
     display: none;
   }
-  .themeDividerHorizontalEnvironment {
+  .themeDividerHorizontalStudio {
     display: block;
     top: -10px;
   }

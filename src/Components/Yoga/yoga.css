@@ -1,9 +1,14 @@
+#toYoga {
+  margin-top: 200px;
+  margin-bottom: 150px;
+  position: relative;
+}
+
 .container.yoga__container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 100px;
 }
 
 .yogaPic {
@@ -35,6 +40,11 @@
   align-items: flex-start;
   color: var(--color-light);
   padding: 30px;
+}
+.themeDividerVerticalyoga {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 @media screen and (max-width: 1326px) {

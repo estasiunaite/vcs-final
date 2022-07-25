@@ -1,19 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import "./Equipment.css";
+import "./props.css";
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
-import ThemeDividerHorizontal from "../../Shared/ThemeDividerHorizontal/ThemeDividerHorizontal";
 import LearnMoreBtn from "../../Shared/LearnMoreBtn";
 import props2bw from "../../Assets/images/bw/props2bw.jpg";
 
 const Equipment = () => {
   return (
-    <div id="toProps">
-      <div className="themeDividerHorizontalProps">
-        <ThemeDividerHorizontal themeName="Equipment" />
-      </div>
-      <div className="propsContainer">
+    <div id="toProps" className="propsSection ">
+      <div className="container props__container">
         <div className="propsPic">
           <img src={props2bw} alt="" />
           <div className="gradientRec">
@@ -27,18 +21,19 @@ const Equipment = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
             iste nulla ullam optio accusantium est quae quod facilis quisquam,
             officia sequi dolorum illum perspiciatis, esse, quaerat non
-            provident consectetur laudantium magni recusandae.
+            provident consectetur laudantium magni recusandae. Corrupti magnam
+            accusantium ad, laboriosam deserunt quia unde, natus a aspernatur
+            ipsam fuga dignissimos amet aliquam quod perspiciatis numquam
+            eligendi est accusamus reiciendis incidunt ratione exercitationem.
           </p>
-          <div className="learnMoreBtnProps">
-            <Link to="/EquipmentPage">
-              <LearnMoreBtn />
-            </Link>
+          <div className="learnMoreBtn">
+            <LearnMoreBtn />
           </div>
         </div>
+      </div>
 
-        <div className="themeDividerVerticalProps">
-          <ThemeDividerVertical themeName="Equipment" />
-        </div>
+      <div className="themeDividerVerticalProps">
+        <ThemeDividerVertical themeName="Eqiuipment" />
       </div>
     </div>
   );

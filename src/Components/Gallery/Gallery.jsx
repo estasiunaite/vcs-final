@@ -19,9 +19,10 @@ const Gallery = () => {
   ];
   return (
     <div className="galleryContainer">
-      <div className="themeDividerHorizontalgallery">
+      {/* <div className="themeDividerHorizontalGallery">
         <ThemeDividerHorizontal themeName="gallery" />
-      </div>
+      </div> */}
+      <h2> | Gallery</h2>
       <div className="slidesContainer">
         <ImageSlider slides={slides} />
       </div>
