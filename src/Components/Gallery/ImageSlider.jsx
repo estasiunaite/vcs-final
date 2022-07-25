@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "./ImageSlider.css";
-import { FcNext } from "react-icons/fc";
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setcurrentIndex] = useState(0);

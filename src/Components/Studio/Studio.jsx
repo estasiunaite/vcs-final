@@ -5,8 +5,8 @@ import "./Studio.css";
 import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
 import ThemeDividerHorizontal from "../../Shared/ThemeDividerHorizontal/ThemeDividerHorizontal";
 import LearnMoreBtn from "../../Shared/LearnMoreBtn";
-import lobbybw from "../../Assets/images/bw/lobbybw.jpg";
-import lobby from "../../Assets/images/color/lobby.jpg";
+import sutdioPicbw from "../../Assets/images/bw/sutdioPicbw.jpg";
+// import lobby from "../../Assets/images/color/lobby.jpg";
 
 const Studio = () => {
   return (
@@ -21,16 +21,15 @@ const Studio = () => {
         </div>
       </div>
       <div className="lobbyPic">
-        <img src={lobbybw} alt="" />
+        <img src={sutdioPicbw} alt="" />
       </div>
-      {/* <div className="container activities__container"> */}
       <div className="aboutEnvironment ">
         <h2> Cosy Environment</h2>
         <p>
-          This is a space for relaxing in a hammock or on the sofa, plugging
-          into the internet with your personal laptop, sitting down to a game
-          and eating dinner to the sunset. Enjoy pleasant breezes and incredible
-          views of the lake, forest and evening sunsets.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
+          possimus quaerat omnis, optio quo repellat id maxime ipsa consectetur.
+          Adipisci provident animi quas consectetur facere doloremque a vero,
+          dignissimos soluta voluptatem.
         </p>
         <div className="learnMoreBtnEnvironment">
           <Link to="/StudioPage">
@@ -38,9 +37,7 @@ const Studio = () => {
           </Link>
         </div>
       </div>
-      {/* </div> */}
     </div>
-    // </div>
   );
 };
 

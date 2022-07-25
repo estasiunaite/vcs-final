@@ -2,23 +2,27 @@ import React from "react";
 import "./gallery.css";
 
 import ThemeDividerHorizontal from "../../Shared/ThemeDividerHorizontal/ThemeDividerHorizontal";
-import ImageCreekBw from "../../Assets/images/bw/creekbw.jpg";
-import ImageLakeBw from "../../Assets/images/bw/lakebw.jpg";
-import ImageForestBw from "../../Assets/images/bw/forestbw.jpg";
+import ImagegalleryPic1bw from "../../Assets/images/bw/galleryPic1bw.jpg";
+import ImagegalleryPic2bw from "../../Assets/images/bw/galleryPic2bw.jpg";
+import ImagegalleryPic3bw from "../../Assets/images/bw/galleryPic3bw.jpg";
+import ImagegalleryPic4bw from "../../Assets/images/bw/galleryPic4bw.jpg";
+import ImagegalleryPic5bw from "../../Assets/images/bw/galleryPic5bw.jpg";
 import ImageSlider from "./ImageSlider";
 
 const Gallery = () => {
   const slides = [
-    { url: ImageCreekBw },
-    { url: ImageLakeBw },
-    { url: ImageForestBw },
+    { url: ImagegalleryPic1bw },
+    { url: ImagegalleryPic2bw },
+    { url: ImagegalleryPic3bw },
+    { url: ImagegalleryPic4bw },
+    { url: ImagegalleryPic5bw },
   ];
   return (
     <div className="galleryContainer">
       <div className="themeDividerHorizontalgallery">
         <ThemeDividerHorizontal themeName="gallery" />
       </div>
-      <div className="container slidesContainer">
+      <div className="slidesContainer">
         <ImageSlider slides={slides} />
       </div>
     </div>
