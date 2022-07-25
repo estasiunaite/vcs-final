@@ -8,6 +8,21 @@
   bottom: 100px;
   left: 16px;
 }
+/* .subscription1 {
+  position: absolute;
+} */
+/* .oneTimebw {
+  position: relative;
+} */
+.displayedSubscription {
+  position: relative;
+}
+.subscriptionPrices {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
 .month,
 .year {
   position: relative;
@@ -20,16 +35,7 @@
   color: var(--color-light);
   font-size: 24px;
 }
-.displayedSubscription {
-  position: relative;
-}
-.subscriptionPrices {
-  object-position: right top;
-  right: 0;
-  position: absolute;
-  top: 0px;
-  z-index: 10;
-}
+
 .themeDividerHorizontalSubscriptions {
   display: none;
 }

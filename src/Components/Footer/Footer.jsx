@@ -1,5 +1,7 @@
 import React from "react";
-import FooterSocials from "./FooterSocials";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+
 import "./footer.css";
 // import { Link } from "react-router-dom";
 
@@ -8,7 +10,13 @@ const Footer = () => {
     <footer>
       <div className="container footer__container">
         <h2>footer</h2>
-        <FooterSocials />
+        <a href="https://www.linkedin.com/in/egle-stasiunaite-a860b8132/">
+          <BsLinkedin />
+        </a>
+        <a href="https://github.com/estasiunaite">
+          {/* <BsLinkedin href="www.linkedin.com/in/egle-stasiunaite-a860b8132" /> */}
+          <BsGithub />
+        </a>
       </div>
     </footer>
   );

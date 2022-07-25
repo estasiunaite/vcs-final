@@ -18,13 +18,13 @@ const Header = () => {
         </Link>
         <ul className={clicked ? "navMenu active" : "navMenu"}>
           <li>
-            <a href="#toAbout"> About</a>
+            <a href="/#toAbout"> About</a>
           </li>
           <li>
-            <a href="#toStudio"> Studio</a>
+            <a href="/#toStudio"> Studio</a>
           </li>
           <li>
-            <a href="#toYoga"> Teachers</a>
+            <a href="/#toYoga"> Teachers</a>
           </li>
           <li>
             <Link to="/ContactUs"> Contact Us</Link>
