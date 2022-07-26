@@ -1,5 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// import { ScrollLink } from "react-scroll";
+// const ScrollLink = Scroll.Link;
+// import { Link, animateScroll as scroll } from "react-scroll";
+// import {
+//   Link,
+//   Button,
+//   Element,
+//   Events,
+//   animateScroll as scroll,
+//   scrollSpy,
+//   scroller,
+// } from "react-scroll";
 
 import "./header.css";
 import Logo from "../../Assets/icons/logo.svg";
@@ -18,13 +30,37 @@ const Header = () => {
         </Link>
         <ul className={clicked ? "navMenu active" : "navMenu"}>
           <li>
-            <a href="/#toAbout"> About</a>
+            <Link
+              to="/#toAbout"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a href="/#toStudio"> Studio</a>
+            <Link
+              to="/#toStudio"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Studio
+            </Link>
           </li>
           <li>
-            <a href="/#toYoga"> Teachers</a>
+            <Link
+              to="/#toYoga"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Teachers
+            </Link>
           </li>
           <li>
             <Link to="/ContactUs"> Contact Us</Link>

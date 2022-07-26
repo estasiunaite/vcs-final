@@ -9,7 +9,6 @@ const Footer = () => {
   return (
     <footer>
       <div className="container footer__container">
-        <h2>footer</h2>
         <a href="https://www.linkedin.com/in/egle-stasiunaite-a860b8132/">
           <BsLinkedin />
         </a>

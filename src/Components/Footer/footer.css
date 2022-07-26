@@ -13,3 +13,8 @@ footer {
     letter-spacing: 0.5em;
     position: relative; */
 }
+
+footer a {
+  font-size: 30px;
+  padding: 12px;
+}
