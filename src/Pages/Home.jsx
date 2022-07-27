@@ -10,7 +10,7 @@ import Studio from "../Components/Studio/Studio";
 import Gallery from "../Components/Gallery/Gallery";
 import Map from "../Components/Map/Map";
 import Footer from "../Components/Footer/Footer";
-import Yoga from "../Components/Yoga/Yoga";
+// import Yoga from "../Components/Yoga/Yoga";
 
 const Home = () => (
   <>
@@ -20,7 +20,7 @@ const Home = () => (
     <Subscriptions />
     <Equipment />
     <Studio />
-    <Yoga />
+    {/* <Yoga /> */}
     <Gallery />
     {/* <Testimonial /> */}
     <Map />

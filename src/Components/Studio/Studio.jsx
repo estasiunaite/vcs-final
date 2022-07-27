@@ -10,6 +10,7 @@ const Studio = () => {
   return (
     <div id="toStudio" className="studioContainer">
       <h1 className="themeDividerVerticalStudio">Studio</h1>
+      <h1 className="themeDividerHorizontalStudio">Studio</h1>
       <div className="environmentRec"></div>
       <div className="studioPic">
         <img src={sutdioPicbw} alt="" />

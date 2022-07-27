@@ -31,37 +31,37 @@ const Header = () => {
         </Link>
         <ul className={clicked ? "navMenu active" : "navMenu"}>
           <li>
-            <Link
-              to="/#toAbout"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
+            <a
+              href="/#toAbout"
+              // spy={true}
+              // smooth={true}
+              // offset={-100}
+              // duration={500}
             >
               About
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="/#toStudio"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
+            <a
+              href="/#toProps"
+              // spy={true}
+              // smooth={true}
+              // offset={-100}
+              // duration={500}
+            >
+              Equipment
+            </a>
+          </li>
+          <li>
+            <a
+              href="/#toStudio"
+              // spy={true}
+              // smooth={true}
+              // offset={-100}
+              // duration={500}
             >
               Studio
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/#toYoga"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Teachers
-            </Link>
+            </a>
           </li>
           <li>
             <Link to="/ContactUs"> Contact Us</Link>

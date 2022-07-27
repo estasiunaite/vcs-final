@@ -23,6 +23,7 @@
   right: 0;
   z-index: 10;
   height: 83%;
+  width: 100%;
 }
 
 .month,
@@ -63,9 +64,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .subscriptionPrices {
+  /* .subscriptionPrices {
     display: none;
-  }
+  } */
   .themeDividerVerticalSubscriptions {
     display: none;
   }

@@ -49,11 +49,19 @@
   margin-bottom: 25%;
   position: absolute;
 }
-
+.themeDividerHorizontalStudio {
+  display: none;
+}
 @media screen and (max-width: 1024px) {
   .themeDividerVerticalStudio {
     display: none;
   }
+  .themeDividerHorizontalStudio {
+    display: block;
+    color: var(--color-blue1);
+    margin-bottom: 2rem;
+  }
+
   .environmentRec {
     display: none;
   }

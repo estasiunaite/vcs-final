@@ -8,6 +8,7 @@ import props2bw from "../../Assets/images/bw/props2bw.jpg";
 const Equipment = () => {
   return (
     <div id="toProps" className="propsContainer">
+      <h1 className="themeDividerHorizontalProps">Equipment</h1>
       <div className="propsPic">
         <img src={props2bw} alt="" />
       </div>

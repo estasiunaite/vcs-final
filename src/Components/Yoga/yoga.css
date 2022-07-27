@@ -1,54 +1,53 @@
-#toYoga {
-  margin-top: 200px;
-  margin-bottom: 150px;
+.yogaSection {
   position: relative;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
-.container.yoga__container {
+.container .yoga__container {
+  margin: 0;
+  margin-bottom: 150px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .yogaPic {
-  max-height: 655px;
-  max-width: 664px;
+  height: 500px;
+  width: 50%;
 }
 
-.blueRectangle {
-  height: 655px;
-  width: 664px;
+.blueBg {
   background-color: var(--color-blue2);
-  z-index: -50;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 50%;
+  height: 500px;
 }
+.aboutYogaParagraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  color: var(--color-light);
+  background-color: var(--color-blue2);
+}
+
 .aboutYogaParagraph p,
 .aboutYogaParagraph h2 {
   text-align: left;
   color: var(--color-light);
-  padding-bottom: 30px;
-}
-.aboutYogaParagraph {
-  max-width: 450px;
-  min-height: 470px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  color: var(--color-light);
-  padding: 30px;
-}
-.themeDividerVerticalyoga {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  padding-bottom: 2rem;
 }
 
+.themeDividerVerticalTeachers {
+  color: var(--color-blue1);
+  transform: rotate(-90deg);
+  width: 15%;
+  margin-bottom: 5%;
+  position: absolute;
+  right: 0;
+}
 @media screen and (max-width: 1326px) {
-  .container.yoga__container {
+  .yogaSection {
     display: flex;
     flex-direction: column;
     justify-content: center;

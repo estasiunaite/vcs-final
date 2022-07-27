@@ -2,12 +2,13 @@
   margin: 0;
   margin-bottom: 150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .propsPic {
   width: 55%;
+  margin: 0;
   margin-right: 3rem;
 }
 
@@ -37,15 +38,24 @@
   align-self: flex-end;
   margin-bottom: 5%;
 }
-
+.themeDividerHorizontalProps {
+  display: none;
+}
 @media screen and (max-width: 1024px) {
   .themeDividerVerticalProps {
     display: none;
   }
+  .themeDividerHorizontalProps {
+    display: block;
+    color: var(--color-blue1);
+    margin-bottom: 2rem;
+  }
+
   .propsContainer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
   }
 }
 

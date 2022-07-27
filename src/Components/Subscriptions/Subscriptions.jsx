@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Subscriptions.css";
 import PriceCard from "../../Shared/PriceCard/PriceCard";
+// import BookNow from "../../Shared/PriceCard/BookNow";
 import oneTimebw from "../../Assets/images/bw/oneTimebw.jpg";
 import monthbw from "../../Assets/images/bw/monthbw.jpg";
 import yearbw from "../../Assets/images/bw/yearbw.jpg";
@@ -27,12 +28,20 @@ const Subscriptions = () => {
           <div className="month">
             <h2>one month</h2>
             <img className="monthbw" src={monthbw} alt="" />
+            {/* <div className="bookNow2">
+              <BookNow />
+            </div> */}
           </div>
         </div>
         <div className="subscription3">
           <div className="year">
             <h2>One year</h2>
-            <img className="yearbw" src={yearbw} alt="" />
+            <div>
+              <img className="yearbw" src={yearbw} alt="" />
+            </div>
+            {/* <div className="bookNow2">
+              <BookNow />
+            </div> */}
           </div>
         </div>
       </div>
