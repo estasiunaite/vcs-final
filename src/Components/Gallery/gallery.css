@@ -8,9 +8,6 @@
   flex-direction: column;
 }
 
-/* .slidesContainer .themeDividerHorizontalGallery {
-  left: 50%;
-} */
 .galleryContainer > h2 {
   color: var(--color-blue1);
 }
