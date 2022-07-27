@@ -2,22 +2,14 @@ import React from "react";
 
 import "./Subscriptions.css";
 import PriceCard from "../../Shared/PriceCard/PriceCard";
-import ThemeDividerVertical from "../../Shared/ThemeDividerVertical/ThemeDividerVertical";
-import ThemeDividerHorizontal from "../../Shared/ThemeDividerHorizontal/ThemeDividerHorizontal";
-
 import oneTimebw from "../../Assets/images/bw/oneTimebw.jpg";
 import monthbw from "../../Assets/images/bw/monthbw.jpg";
 import yearbw from "../../Assets/images/bw/yearbw.jpg";
-// import room1 from "../../Assets/images/color/room1.jpg";
-// import room2 from "../../Assets/images/color/room2.jpg";
-// import room3 from "../../Assets/images/color/room3.jpg";
 
 const Subscriptions = () => {
   return (
     <div id="toSubscriptions">
-      <div className="themeDividerHorizontalSubscriptions">
-        <ThemeDividerHorizontal themeName="Membership" />
-      </div>
+      <h1 className="themeDividerVerticalSubscriptions">Subscriptions</h1>
       <div className="container container__subscriptions">
         <div className="displayedSubscription">
           <div className="subscription1">
@@ -43,9 +35,6 @@ const Subscriptions = () => {
             <img className="yearbw" src={yearbw} alt="" />
           </div>
         </div>
-      </div>
-      <div className="themeDividerVerticalSubscriptions">
-        <ThemeDividerVertical themeName="Membership" />
       </div>
     </div>
   );

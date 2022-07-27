@@ -3,30 +3,33 @@
   margin-top: 150px;
   margin-bottom: 100px;
 }
+
 .themeDividerVerticalSubscriptions {
+  color: var(--color-blue1);
+  transform: rotate(-90deg);
+  width: 15%;
+  margin-bottom: 5%;
   position: absolute;
   bottom: 100px;
-  left: 16px;
 }
-/* .subscription1 {
-  position: absolute;
-} */
-/* .oneTimebw {
-  position: relative;
-} */
+
 .displayedSubscription {
   position: relative;
 }
+
 .subscriptionPrices {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 10;
+  height: 83%;
 }
+
 .month,
 .year {
   position: relative;
 }
+
 .month h2,
 .year h2 {
   position: absolute;
@@ -36,9 +39,6 @@
   font-size: 24px;
 }
 
-.themeDividerHorizontalSubscriptions {
-  display: none;
-}
 .container.container__subscriptions {
   display: grid;
   grid-template-columns: 1.9fr 1fr;
@@ -66,12 +66,10 @@
   .subscriptionPrices {
     display: none;
   }
-  #toSubscriptions .themeDividerVerticalSubscriptions {
+  .themeDividerVerticalSubscriptions {
     display: none;
   }
-  #toSubscriptions .ThemeDividerHorizontalSubscriptions {
-    display: block;
-  }
+
   #toSubscriptionsn > img {
     width: 100%;
   }
