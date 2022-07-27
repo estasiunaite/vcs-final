@@ -47,13 +47,8 @@
     justify-content: center;
     align-items: center;
   }
-
-  .aboutProps {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
 }
+
 @media screen and (max-width: 1024px) {
   .propsPic {
     width: 100%;
@@ -67,10 +62,6 @@
   .aboutProps {
     width: 70%;
     margin: 2rem 0;
-  }
-
-  .themeDividerVerticalProps {
-    display: none;
   }
 }
 

@@ -1,6 +1,7 @@
-#toStudio {
+.studioContainer {
   display: flex;
-  flex-direction: row;
+  align-items: flex-end;
+  margin: 0;
   margin-top: 300px;
   margin-bottom: 150px;
 }
@@ -12,83 +13,81 @@
   z-index: -20;
   position: relative;
 }
-.lobbyPic img {
-  height: 661px;
-  width: 570px;
+.studioPic img {
+  height: 600px;
+  width: 500px;
 }
 
-.lobbyPic {
-  position: absolute;
+.studioPic {
   align-self: flex-end;
   right: 0;
 }
 
-.aboutEnvironment {
-  max-width: 340px;
-  max-height: 470px;
-  text-align: left;
+.aboutEnvironment1 {
+  margin-top: 2rem;
+  margin-bottom: 3em;
+  width: 30%;
   position: absolute;
-  align-self: flex-start;
-  left: 150px;
-  margin-top: 100px;
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  left: 15%;
+  text-align: left;
 }
-
-.learnMoreBtnStudio {
-  margin-top: 30px;
+.aboutEnvironment p {
+  padding-bottom: 2rem;
+}
+.aboutEnvironment h2 {
+  margin: 0;
+  margin-bottom: 2rem;
 }
 
 .themeDividerVerticalStudio {
-  bottom: 333px;
+  color: var(--color-blue1);
+  transform: rotate(-90deg);
+  width: 15%;
+  align-self: flex-end;
+  margin-bottom: 25%;
+  position: absolute;
 }
-.themeDividerHorizontalStudio {
-  display: none;
-}
 
-@media screen and (max-width: 1326px) {
-  #toStudio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: var(--color-grey2);
-  }
-  .lobbyPic img {
-    width: 100%;
-    height: 100%;
-  }
-  .lobbyPic {
-    margin-top: 50px;
-    align-self: center;
-    position: relative;
-    left: 0;
-  }
-
-  .environmentRec {
-    display: none;
-  }
-  .aboutEnvironment {
-    position: relative;
-    align-self: center;
-    left: 0;
-    margin-top: 70px;
-    margin: 30px;
-  }
-
+@media screen and (max-width: 1024px) {
   .themeDividerVerticalStudio {
     display: none;
   }
-  .themeDividerHorizontalStudio {
-    display: block;
-    top: -10px;
+  .environmentRec {
+    display: none;
+  }
+
+  .studioContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 150px;
   }
 }
 
-/* .aboutActivities {
-  position: relative;
-  align-self: center;
-  text-align: center;
-  left: 0;
-  margin-top: 30px;
-} */
+@media screen and (max-width: 1024px) {
+  .studioPic {
+    width: 100%;
+    margin: 0;
+    top: 0;
+  }
+
+  .studioPic > img {
+    width: 100%;
+    top: 0;
+  }
+  .aboutEnvironment {
+    width: 70%;
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: 3em;
+  }
+  .aboutEnvironment1 {
+    background-color: var(--color-grey2);
+    width: 100%;
+    position: sticky;
+    margin: 0;
+  }
+}
