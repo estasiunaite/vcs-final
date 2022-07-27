@@ -1,18 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Link as Scroll } from "react-scroll";
-// import { Link } from "react-scroll";
-// const ScrollLink = Scroll.Link;
-// import { Link, animateScroll as scroll } from "react-scroll";
-// import {
-//   Link,
-//   Button,
-//   Element,
-//   Events,
-//   animateScroll as scroll,
-//   scrollSpy,
-//   scroller,
-// } from "react-scroll";
+// import { Link as Scroll } from "react-scroll";
 
 import "./header.css";
 import Logo from "../../Assets/icons/logo.svg";

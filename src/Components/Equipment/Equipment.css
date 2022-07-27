@@ -2,12 +2,12 @@
   margin: 0;
   margin-bottom: 150px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .propsPic {
-  width: 55%;
+  width: 50%;
   margin: 0;
   margin-right: 3rem;
 }
@@ -17,7 +17,7 @@
 }
 
 .aboutProps {
-  width: 25%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

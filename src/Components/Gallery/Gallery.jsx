@@ -1,13 +1,13 @@
 import React from "react";
-import "./gallery.css";
 
-import ThemeDividerHorizontal from "../../Shared/ThemeDividerHorizontal/ThemeDividerHorizontal";
+import "./gallery.css";
+import ImageSlider from "./ImageSlider";
+
 import ImagegalleryPic1bw from "../../Assets/images/bw/galleryPic1bw.jpg";
 import ImagegalleryPic2bw from "../../Assets/images/bw/galleryPic2bw.jpg";
 import ImagegalleryPic3bw from "../../Assets/images/bw/galleryPic3bw.jpg";
 import ImagegalleryPic4bw from "../../Assets/images/bw/galleryPic4bw.jpg";
 import ImagegalleryPic5bw from "../../Assets/images/bw/galleryPic5bw.jpg";
-import ImageSlider from "./ImageSlider";
 
 const Gallery = () => {
   const slides = [

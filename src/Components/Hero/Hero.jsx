@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./hero.css";
-import HeroImg from "../../Assets/images/color/hero_img.jpg";
 import CTA from "./CTA";
+import HeroImg from "../../Assets/images/color/hero_img.jpg";
 
 const Hero = () => {
   return (
