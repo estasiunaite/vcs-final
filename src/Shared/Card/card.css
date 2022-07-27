@@ -1,8 +1,7 @@
 .card {
-  max-width: 360px;
+  width: 50%;
   margin: 12px;
-  margin-top: 90px;
-  margin-bottom: 90px;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,8 +15,9 @@
 
 .paragraph,
 .title {
-  padding: 24px;
+  margin: 2rem 0;
   text-align: center;
+  word-wrap: inherit;
 }
 
 .line-1 hr {

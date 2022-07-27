@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import { ScrollLink } from "react-scroll";
+import { Link as Scroll } from "react-scroll";
+// import { Link } from "react-scroll";
 // const ScrollLink = Scroll.Link;
 // import { Link, animateScroll as scroll } from "react-scroll";
 // import {
